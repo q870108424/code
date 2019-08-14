@@ -1,0 +1,3 @@
+mudle_spider为爬取模板文件 
+mudle_spider_eg为调用模板文件的模板  内有说明
+其余为各大网站代理爬取代码
