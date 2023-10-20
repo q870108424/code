@@ -15,9 +15,9 @@ from wxpy import *
 def send_mail(text):
     try:
         retu = True # 定义执行成功时为True
-        sender = '779066442@qq.com' #发送的邮箱
-        pwd = 'njdzsqdnaxqlbeee' #smtp授权码
-        receiver = '779066442@qq.com' #接受者邮箱
+        sender = '7794066442@qq.com' #发送的邮箱
+        pwd = 'njdzsqdsjsjsnax222qlbeee' #smtp授权码
+        receiver = '7794066442@qq.com' #接受者邮箱
         msg = MIMEText(text, 'plain', 'utf-8')  # 发送内容
         msg['From'] = formataddr(['EPRC列印程序', sender])  # 输入发件人在收件人列表里的昵称
         msg['To'] = formataddr(['Huang', receiver])  # 服务器处理后，输入收件人邮箱的昵称
