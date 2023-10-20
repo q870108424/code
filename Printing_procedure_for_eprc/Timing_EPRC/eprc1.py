@@ -15,26 +15,12 @@ from pymouse import PyMouse
 from selenium.webdriver.common.keys import Keys
 class EPRCPRI(threading.Thread):
     def __init__(self):
-        # account='''cpak.006/lpug/v617            库存账号
-        #            cpak.002/xsht/v617
-        #            nui.nt/1255/e197
-        #            rnt.999/4536/e197
-        #            ppn.005/2275/e197
-        #            ghp.13/bpcb/e197
-        #            rho.op/ipzb/e197
-        #            nrttr.012/bglo/eyee/e197
-        #            kr.006/rxcc/fslm/e197
-        #            rtw.acb/tnxd/e197'''
+        # account='''         库存账号
         # self.id_password = {  # 待使用账号
-        #     'rtw.acb': 'tnxd',
-        #     'ghp.13': 'bpcb',
-        #     'rho.op': 'ipzb',
-        #     'rnt.999': '4536',
-        #     'nui.nt': '1255',
-        #     'nrttr.012': 'bglo'
+
         # }
-        self.id_password={'wahnam.001':'waia'}
-		#保安密碼 nana 
+        self.id_password={}
+		#保安密碼  
 
 
 
