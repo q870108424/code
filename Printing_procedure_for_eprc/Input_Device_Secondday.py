@@ -21,14 +21,8 @@ import threading
 class eprcpr:
     def __init__(self):
         self.id_password = {#待使用账号
-                # 'rtw.acb': 'tnxd',
-                # 'ghp.13':'bpcb',
-                # 'rho.op':'ipzb',
-                # 'rnt.999':'4536',
-                # 'nui.nt':'1255',
-                # 'nrttr.012':'bglo'
             }
-        self.id_password={'wahnam.001':'waia'}
+        self.id_password={}
         self.web_driver=webdriver.Chrome(r'C:\Users\Administrator\Downloads\chromedriver_win32\chromedriver.exe')
 
     def login(self):
